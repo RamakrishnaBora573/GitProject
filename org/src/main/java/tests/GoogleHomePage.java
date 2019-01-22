@@ -20,7 +20,7 @@ public class GoogleHomePage {
 	  @BeforeClass
 	  public void beforeClass() throws InterruptedException {
 	   
-	   System.setProperty("webdriver.chrome.driver", "C:\\WorkSpace\\chromedriver_win32\\chromedriver.exe");
+	   System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
 	   driver = new ChromeDriver();
 	     
 	  }
